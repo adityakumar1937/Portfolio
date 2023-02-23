@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya - Personal Portfolio</title>
+
+  <!-- Favicon Icon -->
+  <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+
+  <!-- Font Awesome Icon -->
+  <script src="https://kit.fontawesome.com/f1278d1fb6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <img class="logo" src="Images/logo.png" alt="" srcset="" />
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-section">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#offer-section">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume-section">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio-section">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactme-section">Contact</a>
+        </li>
+      </ul>
+      <a class="btn button-secondary me-5" href="#contactme-section">Hire Me</a>
+    </div>
+
+    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+
+  <!-- Hero Section  -->
+  <section id="hero-section">
+    <!-- Social Media Icon -->
+    <div>
+      <ul class="social-icon">
+        <li>
+          <a href="#">
+            <img src="Images/Web Icons/linkedin.png" class="icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="Images/Web Icons/instagram.png" class="icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="Images/Web Icons/github.png" class="icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Hero Section Main Heading -->
+    <div class="hero">
+      <!-- Typewriter Animation -->
+      <div class="wrapper">
+        <div class="static-txt mr-2">I'm a</div>
+        <ul class="dynamic-txts">
+          <li><span>Web Developer</span></li>
+          <li><span>Web Designer</span></li>
+          <li><span>Photographer</span></li>
+          <li><span>Freelancer</span></li>
+        </ul>
+      </div>
+
+      <p class="hero-para muted-text">
+        I am a frontend developer specializing in creating user-friendly and visually
+        appealing web applications. With a strong understanding of HTML, CSS, and JavaScript,
+        I have the skills to bring designs to life and ensure a seamless user experience.
+
+      </p>
+      <button class="btn button-secondary mt-4">
+        Download CV <i class="fa-solid fa-download"></i>
+      </button>
+    </div>
+    <!-- Hero Section Progile Image and Blob -->
+    <div>
+      <!-- Blob 1 -->
+      <!-- <div class="blob blob-1">
+        <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" width="120%" id="blobSvg">
+          <g transform="translate(125.84562683105469, -8.26922607421875)">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(236, 91, 83)"></stop>
+                <stop offset="100%" style="stop-color: rgb(247, 220, 111)"></stop>
+              </linearGradient>
+            </defs>
+            <path fill="url(#gradient)">
+              <animate attributeName="d" dur="6s" repeatCount="indefinite"
+                values="M430.5,296.5Q378,343,340.5,378Q303,413,242,437.5Q181,462,119.5,425.5Q58,389,73.5,319.5Q89,250,95.5,196Q102,142,144.5,99Q187,56,245.5,69.5Q304,83,339.5,121Q375,159,429,204.5Q483,250,430.5,296.5Z;
+                   
+                  M432,312.5Q422,375,371,421Q320,467,261,432.5Q202,398,174.5,361.5Q147,325,106.5,287.5Q66,250,83,195.5Q100,141,138.5,83Q177,25,238,61.5Q299,98,363,109.5Q427,121,434.5,185.5Q442,250,432,312.5Z;
+                  
+                  M410,320Q443,390,378.5,418Q314,446,252,440Q190,434,162,384Q134,334,85,292Q36,250,67,195Q98,140,153,130.5Q208,121,266.5,69.5Q325,18,356,84Q387,150,382,200Q377,250,410,320Z;
+    
+                  M407,300.5Q389,351,356,412.5Q323,474,254.5,460Q186,446,166.5,385.5Q147,325,106.5,287.5Q66,250,68.5,185Q71,120,124.5,74.5Q178,29,246,40.5Q314,52,378.5,81Q443,110,434,180Q425,250,407,300.5Z;
+    
+                  M430.5,296.5Q378,343,340.5,378Q303,413,242,437.5Q181,462,119.5,425.5Q58,389,73.5,319.5Q89,250,95.5,196Q102,142,144.5,99Q187,56,245.5,69.5Q304,83,339.5,121Q375,159,429,204.5Q483,250,430.5,296.5Z;">
+              </animate>
+            </path>
+          </g>
+        </svg>
+      </div> -->
+
+      <!-- Blob 2 -->
+      <!-- <div class="blob blob-2">     
+        <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" width="120%" id="blobSvg">
+          <g transform="translate(125.84562683105469, -8.26922607421875)">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(236, 91, 83)"></stop>
+                <stop offset="100%" style="stop-color: rgb(247, 220, 111)"></stop>
+              </linearGradient>
+            </defs>
+            <path fill="url(#gradient)">
+              <animate attributeName="d" dur="6s" repeatCount="indefinite"
+                values="M377.48699,321.27283Q392.54566,392.54566,321.27283,399.60102Q250,406.65638,173.93648,404.39171Q97.87296,402.12704,102.04235,326.06352Q106.21173,250,131.1352,203.02934Q156.05867,156.05867,203.02934,97.4764Q250,38.89413,303.26467,91.1824Q356.52934,143.47066,359.47883,196.73533Q362.42832,250,377.48699,321.27283Z;
+             
+                M438.5,321Q392,392,321,379.5Q250,367,162.5,396Q75,425,106.5,337.5Q138,250,146,202Q154,154,202,143.5Q250,133,302.5,139Q355,145,420,197.5Q485,250,438.5,321Z;
+            
+                M410.5,331.5Q413,413,331.5,381.5Q250,350,194.5,355.5Q139,361,70,305.5Q1,250,51,175.5Q101,101,175.5,93Q250,85,320.5,97Q391,109,399.5,179.5Q408,250,410.5,331.5Z;
+
+                M415.44291,321.539Q393.078,393.078,321.539,364.73258Q250,336.38716,212.44291,330.75066Q174.88583,325.11417,97.84401,287.55709Q20.80219,250,95.69358,210.29248Q170.58496,170.58496,210.29248,139.07941Q250,107.57385,338.84542,89.9415Q427.69084,72.30916,432.74934,161.15458Q437.80783,250,415.44291,321.539Z;
+
+                M378.5,281.5Q313,313,281.5,390.5Q250,468,187,422Q124,376,72.5,313Q21,250,52,166.5Q83,83,166.5,119Q250,155,283,169.5Q316,184,380,217Q444,250,378.5,281.5Z;
+                
+                M377.48699,321.27283Q392.54566,392.54566,321.27283,399.60102Q250,406.65638,173.93648,404.39171Q97.87296,402.12704,102.04235,326.06352Q106.21173,250,131.1352,203.02934Q156.05867,156.05867,203.02934,97.4764Q250,38.89413,303.26467,91.1824Q356.52934,143.47066,359.47883,196.73533Q362.42832,250,377.48699,321.27283Z;">
+              </animate>
+            </path>
+          </g>
+        </svg>
+      </div> -->
+
+      <!-- Blob 3 -->
+      <!-- <div class="blob blob-3">
+        <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" width="120%" id="blobSvg">
+          <g transform="translate(125.84562683105469, -8.26922607421875)">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(236, 91, 83)"></stop>
+                <stop offset="100%" style="stop-color: rgb(247, 220, 111)"></stop>
+              </linearGradient>
+            </defs>
+            <path fill="url(#gradient)">
+              <animate attributeName="d" dur="6s" repeatCount="indefinite"
+                values="M377.48699,321.27283Q392.54566,392.54566,321.27283,399.60102Q250,406.65638,173.93648,404.39171Q97.87296,402.12704,102.04235,326.06352Q106.21173,250,131.1352,203.02934Q156.05867,156.05867,203.02934,97.4764Q250,38.89413,303.26467,91.1824Q356.52934,143.47066,359.47883,196.73533Q362.42832,250,377.48699,321.27283Z;
+               
+                  M415.44291,321.539Q393.078,393.078,321.539,364.73258Q250,336.38716,212.44291,330.75066Q174.88583,325.11417,97.84401,287.55709Q20.80219,250,95.69358,210.29248Q170.58496,170.58496,210.29248,139.07941Q250,107.57385,338.84542,89.9415Q427.69084,72.30916,432.74934,161.15458Q437.80783,250,415.44291,321.539Z;
+              
+                  M410.5,331.5Q413,413,331.5,381.5Q250,350,194.5,355.5Q139,361,70,305.5Q1,250,51,175.5Q101,101,175.5,93Q250,85,320.5,97Q391,109,399.5,179.5Q408,250,410.5,331.5Z;
+
+                  M378.5,281.5Q313,313,281.5,390.5Q250,468,187,422Q124,376,72.5,313Q21,250,52,166.5Q83,83,166.5,119Q250,155,283,169.5Q316,184,380,217Q444,250,378.5,281.5Z;
+
+                  M438.5,321Q392,392,321,379.5Q250,367,162.5,396Q75,425,106.5,337.5Q138,250,146,202Q154,154,202,143.5Q250,133,302.5,139Q355,145,420,197.5Q485,250,438.5,321Z;
+                  
+                  M377.48699,321.27283Q392.54566,392.54566,321.27283,399.60102Q250,406.65638,173.93648,404.39171Q97.87296,402.12704,102.04235,326.06352Q106.21173,250,131.1352,203.02934Q156.05867,156.05867,203.02934,97.4764Q250,38.89413,303.26467,91.1824Q356.52934,143.47066,359.47883,196.73533Q362.42832,250,377.48699,321.27283Z;">
+              </animate>
+            </path>
+          </g>
+        </svg>
+      </div> -->
+      <!-- Main Profile Image -->
+      <img class="hero-image" src="Images/Hand coding-pana.png" alt="" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about-section">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="col-lg-6 left-col position-relative">
+
+          <div class="about-hero">
+            <img class="profile-2 img-fluid mx-auto d-block about-tween position-relative"
+              src="Images/About me-pana (1).png" />
+          </div>
+
+        </div>
+        <div class="col-lg-6 right-col ">
+          <h1 class="about-heading fw-bolder fs-4 my-4">Aditya Kumar</h1>
+          <h5 class="sub-heading fs-5 mb-4">
+            I'm a Passionate <span class="highlight-text fw-bolder">Web Developer</span>
+          </h5>
+          <p class="muted-text fs-6 mb-5">
+            I am Aditya Kumar, a 24-year-old frontend developer with a passion for building
+            beautiful and functional websites. With a solid understanding of HTML, CSS, and
+            JavaScript, Whether it's a
+            simple brochure website or a complex web application, I have the experience and
+            expertise to deliver results that meet the needs of my clients. <br />
+            <br />
+
+            I am passionate about creating intuitive interfaces that enhance the overall user
+            experience and am always staying up-to-date with the latest frontend technologies
+            and design trends.
+          </p>
+
+          <button class="btn button-secondary" href="#portfolio-section">View Portfolio</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hoobies & Interest -->
+  <section id="container-hobbies">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="heading-2 mb-3 fw-bolder">HOBBIES & INTERESTS</h2>
+        <img src="Images/underline.png" class="underline mb-2">
+        <!-- <p class="muted-text mt-2 mb-4">In this section, you'll get to know me beyond my professional life. From
+          traveling to working-out, and everything in between, Get a glimpse into what I do for fun and how I unwind in
+          my free time.</p> -->
+      </div>
+      <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa fa-tv fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Developing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-brands fa-apple fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Mac OS</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-solid fa-film fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Cinema</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-solid fa-mug-hot fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Coffee</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-solid fa-guitar fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Music</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-solid fa-gamepad fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Games</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-regular fa-object-group fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Designing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-solid fa-dumbbell fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Sports</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-solid fa-palette fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Painting</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-solid fa-book-open-reader fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Reading</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-brands fa-android fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Android</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2">
+          <div class="interests-desc position-relative px-2 py-3 rounded">
+            <div class="hobbies d-flex align-items-center">
+              <div class="text-center rounded-pill me-4">
+                <i class="fa-solid fa-otter fs-5"></i>
+              </div>
+              <div class="content">
+                <h6 class="title mb-0 ms-4" style="color: black !important">Other Activities</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- Counter Section -->
+  <section id="counter-section" class="rounded-4 mx-3">
+    <div class="container-fluid">
+      <div class="row py-5 rounded-2">
+        <div class="col-lg-3 col-md-3">
+          <div class="counter text-center py-3">
+            <i class="fa-regular fa-face-smile-beam my-4 fs-4"></i>
+            <h3 class="my-2 fs-3 fw-bold">1251</h3>
+            <h6 class="my-3 fw-bold">Happy Clients</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="counter text-center py-3">
+            <i class="fa-solid fa-trophy my-4 fs-4"></i>
+            <h3 class="my-2 fs-3 fw-bolder">15</h3>
+            <h6 class="my-3 fw-bold">Award Won</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="counter text-center py-3">
+            <i class="fa-solid fa-mug-hot my-4 fs-4"></i>
+            <h3 class="my-2 fs-3 fw-bold">3261</h3>
+            <h6 class="my-3 fw-bold">Cup of Coffee</h6>
+          </div>
+        </div>
+        <div class="col-lg-3  col-md-3">
+          <div class="counter text-center py-3">
+            <i class="fa-solid fa-square-check my-4 fs-4"></i>
+            <h3 class="my-2 fs-3 fw-bold">36</h3>
+            <h6 class="my-3 fw-bold">Project Completed</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer Section -->
+  <section id="offer-section">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="heading-2 fw-bolder">WHAT DO I OFFER ?</h2>
+        <img src="Images/underline.png" class="underline mb-2">
+        <!-- <p class="muted-text mt-2 mb-4">I offer a range of services from designing and developing user-friendly websites
+          to creating customized web applications, ensuring every project is unique and tailored to meet your specific
+          requirements.</p> -->
+
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="offer-box text-center px-3 py-2">
+            <i class="fa-solid fa-pen-nib fs-2 my-4"></i>
+            <h3 class="fs-5 fw-bold mb-2" style="color: black !important">UX / UI Design</h3>
+            <p class="fs-6 muted-text mb-2">It is a long established fact that a reader will be distracted by the when
+              looking at its layout.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="offer-box text-center px-3 py-2">
+            <i class="fa-brands fa-apple fs-2 my-4"></i>
+            <h3 class="fs-5 fw-bold mb-2" style="color: black !important">iOS App Designer</h3>
+            <p class="fs-6 muted-text mb-2">It is a long established fact that a reader will be distracted by the when
+              looking at its layout.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="offer-box text-center px-3 py-2">
+            <i class="fa fa-camera fs-2 my-4"></i>
+            <h3 class="fs-5 fw-bold mb-2" style="color: black !important">Photography</h3>
+            <p class="fs-6 muted-text mb-2">It is a long established fact that a reader will be distracted by the when
+              looking at its layout.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="offer-box text-center px-3 py-2">
+            <i class="fa-regular fa-compass fs-2 my-4"></i>
+            <h3 class="fs-5 fw-bold mb-2" style="color: black !important">Graphic Designer</h3>
+            <p class="fs-6 muted-text mb-2">It is a long established fact that a reader will be distracted by the when
+              looking at its layout.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="offer-box text-center px-3 py-2">
+            <i class="fa fa-shield fs-2 my-4"></i>
+            <h3 class="fs-5 fw-bold mb-2" style="color: black !important">Web Security</h3>
+            <p class="fs-6 muted-text mb-2">It is a long established fact that a reader will be distracted by the when
+              looking at its layout.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+          <div class="offer-box text-center px-3 py-2">
+            <i class="fa-regular fa-clock fs-2 my-4"></i>
+            <h3 class="fs-5 fw-bold mb-2" style="color: black !important">24/7</h3>
+            <p class="fs-6 muted-text mb-2">It is a long established fact that a reader will be distracted by the when
+              looking at its layout.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+
+  <section id="technology">
+    <div class="container">
+      <div class="row">
+        <h2 class="heading-2 mb-4 text-center fw-bolder">SKILLS & TECHNOLOGY </h2>
+        <img src="Images/underline.png" class="underline mb-2">
+        <!-- <p class="muted-text mt-2 mb-4 text-center">Highlighting Relevant Abilities and Expertise to Showcase
+          Professionalism and Value.</p> -->
+      </div>
+      <div class="row text-center">
+        <!--HTML-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/html.png">
+            <h5 class="mt-3">HTML</h5>
+          </div>
+        </div>
+        <!--CSS-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/css.png">
+            <h5 class="mt-3">CSS</h5>
+          </div>
+        </div>
+        <!--JavaScript-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/javascript.png">
+            <h5 class="mt-3">JavaScript</h5>
+          </div>
+        </div>
+        <!--Bootstrap-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/bootstrap.png">
+            <h5 class="mt-3">BootStrap</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <!--Tailwind-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/tailwind.png">
+            <h5 class="mt-3">Tailwind CSS</h5>
+          </div>
+        </div>
+
+        <!--React-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/react.png">
+            <h5 class="mt-3"> React</h5>
+          </div>
+        </div>
+        <!--NodeJs-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/node.png">
+            <h5 class="mt-3">Node Js</h5>
+          </div>
+        </div>
+        <!--Express-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/express.png" class="pt-4">
+            <h5 class="mt-3 pt-2">Express Js</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <!--MongoDB-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/mongodb.png">
+            <h5 class="mt-3">MongoDB</h5>
+          </div>
+        </div>
+        <!--Git-->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/git.png">
+            <h5 class="mt-3">Git</h5>
+          </div>
+        </div>
+        <!-- Figma -->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/figma.png">
+            <h5 class="mt-3">Figma</h5>
+          </div>
+        </div>
+        <!-- VS Code -->
+        <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
+          <div class="web-icon pt-3">
+            <img src="Images/Web Icons/vscode.png">
+            <h5 class="mt-3">VS Code</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Resume Section-->
+  <section id="resume-section">
+    <div class="container ">
+      <div class="row">
+        <h2 class="heading-2 mb-4 text-center fw-bolder">WORK PARTICIPATION</h2>
+        <img src="Images/underline.png" class="underline mb-2">
+        <!-- <p class="muted-text mt-2 mb-4 text-center">Obviously I'm a Web Designer. Experienced with all stages of the
+          development cycle
+          for dynamic web projects.</p> -->
+
+        <div class="row  mt-5 mb-3">
+          <div class="col-lg-6">
+            <h3 class="fs-6 fw-bold resume-box-date d-inline px-3 py-2 float-end">2015 - 2018</h3>
+          </div>
+          <div class="col-lg-6 text-left">
+            <div class="resume-box p-4 rounded-2">
+              <h5 class="pl-2 fs-5 fw-bold">UX Designer</h5>
+              <small class="pl-2 fw-semibold" style="color: black !important">Vivo - Senior Designer</small>
+              <p class="muted-text fs-6">The generated injected humour, or non-characteristic words etc. Cum sociis
+                natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-lg-6 text-right">
+            <div class="resume-box p-4 rounded-2">
+              <h5 class="pl-2 fs-5 fw-bold">Web Develpoer</h5>
+              <small class="pl-2 fw-semibold" style="color: black !important">Oppo - HR Manager</small>
+              <p class="muted-text fs-6">The generated injected humour, or non-characteristic words etc. Cum sociis
+                natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="fs-6 fw-bold resume-box-date d-inline px-3 py-2 float-start">2015 - 2018</h3>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-lg-6">
+            <h3 class="fs-6 fw-bold resume-box-date d-inline px-3 py-2 float-end">2015 - 2018</h3>
+          </div>
+          <div class="col-lg-6 text-left">
+            <div class="resume-box p-4 rounded-2">
+              <h5 class="pl-2 fs-5 fw-bold">Graphic Designer</h5>
+              <small class="pl-2 fw-semibold" style="color: black !important">Apple - Testor</small>
+              <p class="muted-text fs-6">The generated injected humour, or non-characteristic words etc. Cum sociis
+                natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise">
+    <div class="container-fluid">
+      <div class="row position-relative">
+        <div class="col-lg-4 skew-image">
+        </div>
+        <div class="col-lg-8 offset-lg-4">
+          <div class="conatiner expertise-box">
+            <div class="row text-center">
+              <h2 class="heading-2 mb-4">WORK PARTICIPATION</h2>
+              <img src="Images/underline.png" class="underline mb-2">
+              <p class="muted-text mt-2 mb-5">A Summary of My Professional Background and Accomplishments</p>
+              <div class="col-lg-4">
+                <button class="btn button-secondary d-block px-3 py-2 mb-5 w-40 text-nowrap active-btn">UX
+                  Design</button>
+                <button class="btn button-secondary d-block px-3 py-2 mb-5 w-40 text-nowrap">Language Skill</button>
+                <button class="btn button-secondary d-block px-3 py-2 mb-5 w-40 text-nowrap">Web Development</button>
+              </div>
+              <div class="col-lg-8 progress-bar-container">
+                <div class="progress-box pt-2">
+                  <h6 class="fw-semibold text-start pb-2">HTML</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-color"
+                      role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-value pt-1 h6 text-end">80%</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress-box mt-4 pt-2">
+                  <h6 class="fw-semibold text-start pb-2">CSS</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-color"
+                      role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-value pt-1 h6 text-end">70%</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress-box mt-4 pt-2">
+                  <h6 class="fw-semibold text-start pb-2">Javascript</h6>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-color"
+                      role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-value pt-1 h6 text-end">60%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- My Portfolio Section -->
+  <section id="portfolio-section">
+    <div class="container portfolio-container text-center">
+      <h2 class="heading-2 my-4 fw-bolder">MY PORTFOLIO</h2>
+      <img src="Images/underline.png" class="underline mb-2">
+      <!-- <p class="muted-text mt-2 mb-4">From website design to app development, I offer a range of expertise to showcase
+        my skills and capabilities. Browse through my work and get a glimpse of how I can bring your ideas to life.</p> -->
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <ul class="filters text-center">
+            <li class="active" data-filter="*"><a href="#!" class="btn button-secondary me-2 py-2 px-3 ">All</a>
+            </li>
+            <li data-filter=".html"><a href="#!" class="button-secondary me-2 py-2 px-3">HTML</a></li>
+            <li data-filter=".css"><a href="#!" class="button-secondary me-2 py-2 px-3">CSS</a></li>
+            <li data-filter=".javascript"><a href="#!" class="button-secondary me-2 py-2 px-3">Javascript</a>
+            </li>
+          </ul>
+          <div class="projects">
+            <div class="row mt-3">
+              <div class="col-lg-4 item html">
+                <div class="card">
+                  <div class="card-head">
+                    <img src="Images/1.png" alt="" class="img-fluid card-img">
+                    <div class="card-overlay">
+                      <h2>HTML</h2>
+                    </div>
+                    <div class="card-hover">
+                      <h2>Lorem, ipsum.</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo
+                        repudiandae eaque maiores provident deserunt.</p>
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h4 class="title my-2">HTML</h4>
+                    <!-- <a href="#!" class="btn card-btn">See More</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 item css">
+                <div class="card">
+                  <div class="card-head">
+                    <img src="Images/2.png" alt="" class="img-fluid card-img">
+                    <div class="card-overlay">
+                      <h2>CSS</h2>
+                    </div>
+                    <div class="card-hover">
+                      <h2>Lorem, ipsum.</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo
+                        repudiandae eaque maiores provident deserunt.</p>
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h4 class="title my-2">CSS</h4>
+                    <!-- <a href="#!" class="btn card-btn">See More</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 item javascript">
+                <div class="card">
+                  <div class="card-head">
+                    <img src="Images/3.png" alt="" class="img-fluid card-img">
+                    <div class="card-overlay">
+                      <h2>Javascript</h2>
+                    </div>
+                    <div class="card-hover">
+                      <h2>Lorem, ipsum.</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo
+                        repudiandae eaque maiores provident deserunt.</p>
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h4 class="title my-2">Javascript</h4>
+                    <!-- <a href="#!" class="btn card-btn">See More</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 item html">
+                <div class="card">
+                  <div class="card-head">
+                    <img src="Images/4.jpg" alt="" class="img-fluid card-img">
+                    <div class="card-overlay">
+                      <h2>HTML</h2>
+                    </div>
+                    <div class="card-hover">
+                      <h2>Lorem, ipsum.</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo
+                        repudiandae eaque maiores provident deserunt.</p>
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h4 class="title my-2">HTML</h4>
+                    <!-- <a href="#!" class="btn card-btn">See More</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 item css">
+                <div class="card">
+                  <div class="card-head">
+                    <img src="Images/5.jpg" alt="" class="img-fluid card-img">
+                    <div class="card-overlay">
+                      <h2>CSS</h2>
+                    </div>
+                    <div class="card-hover">
+                      <h2>Lorem, ipsum.</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo
+                        repudiandae eaque maiores provident deserunt.</p>
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h4 class="title my-2">CSS</h4>
+                    <!-- <a href="#!" class="btn card-btn">See More</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 item html">
+                <div class="card">
+                  <div class="card-head">
+                    <img src="Images/6.jpg" alt="" class="img-fluid card-img">
+                    <div class="card-overlay">
+                      <h2>HTML</h2>
+                    </div>
+                    <div class="card-hover">
+                      <h2>Lorem, ipsum.</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo
+                        repudiandae eaque maiores provident deserunt.</p>
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h4 class="title my-2">HTML</h4>
+                    <!-- <a href="#!" class="btn card-btn">See More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="btn button-secondary mt-5">
+          More Work <i class="fa-solid fa-arrows-rotate"></i></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hire Me Section -->
+  <section id="counter-section" class="rounded-4 mx-3">
+    <div class=" container-fluid">
+      <div class="row text-center px-5 py-5">
+        <div class="col-lg-12">
+          <h2 class="fs-3 fw-bold my-4" style="color: #fff;">I Am Available For Freelancer Projects.</h2>
+          <p class="fs-5 fw-semibold my-4 " style="color: #A5A5A5;">Whether you need a one-time project completed or
+            ongoing support for your business, my freelance services offer the flexibility and expertise to help you
+            succeed.</p>
+          <button class="btn button-primary mt-4">Hire Me <i class="fa-solid fa-handshake-simple"></i> </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+
+  <section id="contactme-section">
+    <div class="container text-center">
+      <div class="col-lg-12">
+        <h2 class="heading-2 fw-bolder">CONTACT ME</h2>
+        <img src="Images/underline.png" class="underline mb-2">
+        <div class="row py-5">
+          <div class="col-lg-4">
+            <div class="contact-box px-3 pt-2">
+              <img src="Images/Web Icons/calling-app.png" class="mb-2 icon-2"></img>
+              <h5 class="my-3 fw-semibold">PHONE</h5>
+              <p class="mb-2 muted-text py-2">Promising development turmoil inclusive education transformative community
+              </p>
+              <a style="color: #ec5b53;">+919454451937</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-box px-3 pt-2">
+              <img src="Images/Web Icons/mail.png" class="mb-2 icon-2"></img>
+              <h5 class="my-3 fw-semibold">EMAIL</h5>
+              <p class="mb-2 muted-text py-2">Promising development turmoil inclusive education transformative community
+              </p>
+              <a style="color: #ec5b53;">adityakumar945445@gmail.com</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-box px-3 pt-2">
+              <img src="Images/Web Icons/map.png" class="mb-2 icon-2"></img>
+              <h5 class="my-3 fw-semibold">LOCATION</h5>
+              <p class="mb-2 muted-text py-2">Promising development turmoil inclusive education transformative community
+              </p>
+              <a style="color: #ec5b53;">View on Google map</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="form-section pt-5 mt-3 mb-4">
+    <div class="container form-container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="custom-form mb-sm-30">
+            <form method="post" name="myForm" onsubmit="return validateForm()">
+              <p id="error-msg"></p>
+              <div id="simple-msg"></div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-6">
+                      <div class="form-group my-3">
+                        <input name="name" id="name" type="text" class="form-control border rounded"
+                          placeholder="First Name :">
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                      <div class="form-group my-3">
+                        <input name="email" id="email" type="email" class="form-control border rounded"
+                          placeholder="Your email :">
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group my-3">
+                        <input name="subject" id="subject" class="form-control border rounded"
+                          placeholder="Your subject :">
+                      </div>
+                    </div>
+                  </div><!--end row-->
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group my-3">
+                    <textarea name="comments" id="comments" rows="7" class="form-control border rounded"
+                      placeholder="Your Message :"></textarea>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 text-end mb-5">
+                  <button type="submit" id="submit" name="send" class="btn button-secondary">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mt-5">
+          <div class="footer-head d-flex justify-content-center">
+            <span class="text-dark fs-2 fw-bold d-inline-block mt-3"><a href="#" class="text-decoration-none" style="color:
+            #fff;">Aditya</a></span>
+            <span><img class="logo mx-2" src="Images/logo.png" /></span>
+            <span class="text-dark fs-2 fw-bold d-inline-block mt-3"><a href="#" class="text-decoration-none" style="color:
+              #fff;">Kumar</a></span>
+          </div>
+          <p class="para-desc mx-auto mt-5 fc">Building Your Online Presence with Responsive and Engaging Websites -
+            Experienced Frontend Web Developer at Your Service.</p>
+          <ul class="list-unstyled footer-icon-list fs-5 my-5">
+            <li class="list-inline-item px-2"><a href="#"><img src="Images/Web Icons/linkedin.png"        class="footer-icon"></a></li>
+            <li class="list-inline-item px-2"><a href="#"><img src="Images/Web Icons/github.png"          class="footer-icon"></a></li>
+            <li class="list-inline-item px-2"><a href="#"><img src="Images/Web Icons/instagram.png"       class="footer-icon"></a></li>
+            <li class="list-inline-item px-2"><a href="#"><img src="Images/Web Icons/google-plus (1).png" class="footer-icon"></a></li>
+            <li class="list-inline-item px-2"><a href="#"><img src="Images/Web Icons/telegram.png"        class="footer-icon"></a></li>
+          </ul>
+          <hr>
+          <p class="fc text-center fs-6 my-3" style="color: #fff;">© 2023 Aditya Portfolio. Design with <span style="color: #ec5b53;">
+              &#10084; </span> by Aditya Kumar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="isotope.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
